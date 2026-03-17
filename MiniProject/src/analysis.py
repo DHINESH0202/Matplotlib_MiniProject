@@ -5,7 +5,6 @@ def perform_analysis(df):
     print("\nSales Analysis")
 
     total_sales = np.sum(df["Sales"])
-
     avg_sales = np.mean(df["Sales"])
 
     print("Total Sales:", total_sales)
